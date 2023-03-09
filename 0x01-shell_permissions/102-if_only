@@ -1,0 +1,2 @@
+#!/bin/bash
+if [ $(stat -c %u hello) = $(id -u guillaume) ]; then sudo chown betty hello; fi
