@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv
+set | grep -E '^(declare -[a-z]+|[A-Z_]+)='
