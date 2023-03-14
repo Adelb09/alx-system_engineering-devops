@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n 'p;n' "${1:-/dev/stdin}"
+while read line; do echo "$line"; read line; done < "${1:-/dev/stdin}"
