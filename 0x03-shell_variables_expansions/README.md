@@ -9,3 +9,4 @@ To run the script, navigate to the directory where the script is saved and run t
 6-create_local_variable : This script creates a new local variable BEST with the value 'School'
 7-create_global_variable : script that creates a new global variable called BEST with a value of School
 8-true_knowledge : script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE.
+9-divide_and_rule : script that prints the result of POWER divided by DIVIDE, followed by a new line.
