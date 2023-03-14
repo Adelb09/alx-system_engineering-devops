@@ -6,3 +6,4 @@
 To run the script, navigate to the directory where the script is saved and run the command `./3-paths`. The output will be the number of directories in the PATH.
 4-global_variables : a script that lists environment variables.
 5-local_variables : Script to list all local variables and environment variables, and functions
+6-create_local_variable : This script creates a new local variable BEST with the value 'School'
