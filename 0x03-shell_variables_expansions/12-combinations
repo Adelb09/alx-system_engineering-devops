@@ -1,2 +1,2 @@
 #!/bin/bash
-for i in {a..z}; do for j in {a..z}; do if [ $i$j != oo ] && [ $i != o ] && [ $j != o ]; then echo $i$j; fi; done; done
+for c in {a..z}{a..z}; do [[ "$c" != "oo" && ! $(echo "$c" | grep "o") ]] && echo "$c"; done
