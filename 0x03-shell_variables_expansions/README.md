@@ -4,3 +4,4 @@
 3-paths : This script counts the number of directories in the PATH environment variable. It uses the `echo` command to print the PATH, the `tr` command to replace each colon with a newline character, and the `wc` command to count the number of lines. The result is the number of directories in the PATH.
 
 To run the script, navigate to the directory where the script is saved and run the command `./3-paths`. The output will be the number of directories in the PATH.
+4-global_variables : a script that lists environment variables.
