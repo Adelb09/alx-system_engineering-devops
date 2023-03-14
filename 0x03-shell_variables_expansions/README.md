@@ -1,4 +1,4 @@
-0-alias : This script creates an alias for the ls command that executes the rm * command, using a two-line script that follows the requirements of the project.
+0-alias : This script creates an alias for the ls command that executes the rm * command, using a two-line script that follows the requirements of t11;rgb:0000/0000/0000he project.
 1-hello_you : This script prints 'hello user', where user is the current Linux user.
 2-path : This script adds /action to the PATH, making it the last directory the shell looks into when looking for a program.
 3-paths : This script counts the number of directories in the PATH environment variable. It uses the `echo` command to print the PATH, the `tr` command to replace each colon with a newline character, and the `wc` command to count the number of lines. The result is the number of directories in the PATH.
@@ -17,3 +17,4 @@ To run the script, navigate to the directory where the script is saved and run t
 100-decimal_to_hexadecimal : script that converts a number from base 10 to base 16.
 101-rot13 : script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 102-odd : script that prints every other line from the input, starting with the first line.
+103-water_and_stir : script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
