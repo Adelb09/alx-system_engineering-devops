@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%x\n" $((0x$WATER + 0x$STIR))
+printf "%x\n" $(( $(echo -n $WATER | base64 -d | xxd -p) + $(echo -n $STIR | base64 -d | xxd -p) )) | xxd -r -p | base64
